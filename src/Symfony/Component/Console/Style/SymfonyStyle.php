@@ -476,6 +476,7 @@ class SymfonyStyle extends OutputStyle
                 $message = OutputFormatter::escape($message);
             }
 
+            $decoration_length = Helper::strlen($message) - Helper::strlenWithoutDecoration($this->getFormatter(), $message);
             $lines = array_merge($lines, explode(\PHP_EOL, wordwrap($message, $this->lineLength - $prefixLength - $indentLength, \PHP_EOL, true)));
 
             if (\count($messages) > 1 && $key < \count($messages) - 1) {
