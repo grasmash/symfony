@@ -23,7 +23,7 @@ Documentation
 * Master Symfony with the [Guides and Tutorials][8], the [Components docs][9]
   and the [Best Practices][10] reference.
 
-Community
+Community!!!
 ---------
 
 * [Join the Symfony Community][11] and meet other members at the [Symfony events][12].
