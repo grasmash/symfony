@@ -372,7 +372,7 @@ class ProgressBarTest extends TestCase
         );
     }
 
-    public function testOverwriteWithSectionOutputWithNewlines()
+    public function testOverwriteWithSectionOutputWithNewlinesInMessage()
     {
         $sections = [];
         $stream = $this->getOutputStream(true);
